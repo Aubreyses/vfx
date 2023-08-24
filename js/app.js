@@ -24,7 +24,6 @@ function searching () {
         loader.classList.toggle( 'active' ); 
         
         setTimeout(() => {
-            console.log('hello')
             loader.classList.remove('active');
             report.classList.add('active')
         }, 3000)
