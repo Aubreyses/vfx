@@ -7,27 +7,140 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,700;1,200;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
+    <div class="header">
+        <img class="logo" src="img/logo.png" alt=""/>
+        <div class="lang-change">
+            <button class="button-language">ua</button>
+
+            <div class="language-block-change">
+                <a class="button-change-lang" href="/">EN</a>
+                <a class="button-change-lang" href="/">UA</a>
+            </div>
+        </div>
+    </div>
     <div class="home">
         <div class="container">
-            <div class="header">
-                <img class="logo" src="img/logo.png" alt=""/>
-                <div class="lang-change">en | ua</div>
-            </div>
-
             <div class="home-content">
                 <div class="title">Check Your VIN</div>
                 <div class="content-text">Try our CARFAX and Autocheck lookup. tool. Just drop your VIN in the field below.</div>
                 <form class="checker">
                     <input type="text" class="checker-input" placeholder="Enter your VIN to check vehicle details">
-                    <button class="button checker-button">CHECK</button>
+                    <button type="button" class="button checker-button"><div class="loader"></div>CHECK</button>
+                    <div class="checker-error">The Vin must be 17 characters</div>
                 </form>
+
+                <div class="report">
+                    <div class="title title-upperline">GET YOUR <span class="color-black">ORIGINAL</span> REPORT!</div>
+                    <div class="report-subtitle">Comuta-Car 2001</div>
+                    <div class="report-text"><span class="color-blue">Attention!</span> We found records in the CARFAX report and records in the AUTOCHECK report. Be sure to read the reports before purchasing this vehicle</div>
+                    <div class="report-list">
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+    
+                        <div class="block report-block">
+                            <img src="img/report/report-logo.png" alt="/" class="report-block-logo">
+                            <div class="report-block-title">Genuine Autocheck report​</div>
+                            <div class="report-block-price">
+                                <div class="old-price">$24.99</div>
+                                <div class="price-text">now only</div>
+                                <div class="new-price">$8.99</div>
+                            </div>
+                            <button class="report-block-button button">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="brands">
                     <div class="brands-logo">
@@ -87,58 +200,59 @@
 
             <div class="button purchase-button">GET STARTED</div>
         </div>
+    </div>
+    <!-- Purchase -->
 
-        <div class="details">
-            <div class="container details-container">
-                <div class="title details-title">
-                    WHAT IS INCLUDED IN REPORT?
+    <div class="details">
+        <div class="container details-container">
+            <div class="title details-title">
+                WHAT IS INCLUDED IN REPORT?
+            </div>
+            <div class="details-subtitle">
+                Check <span class="color-black">report</span> examples
+            </div>
+            <div class="details-buttons">
+                <div class="button details-button">CARFAX EXAMPLE</div>
+                <div class="button details-button">AUTOCHECK EXAMPLE</div>
+            </div>
+            <div class="details-blocks-line">
+                <div class="block details-upperblock">
+                    <img src="img/sequence/details/car-crash.png" alt="/" class="details-block-img details-block-img-car">
+                    <div class="details-block-title">Accidents records</div>
                 </div>
-                <div class="details-subtitle">
-                    Check <span class="color-black">report</span> examples
+                <div class="block details-upperblock">
+                    <img src="img/sequence/details/sea.png" alt="/" class="details-block-img">
+                    <div class="details-block-title">Flood accidents</div>
                 </div>
-                <div class="details-buttons">
-                    <div class="button details-button">CARFAX EXAMPLE</div>
-                    <div class="button details-button">AUTOCHECK EXAMPLE</div>
+                <div class="block details-upperblock">
+                    <img src="img/sequence/details/speedometer.png" alt="/" class="details-block-img">
+                    <div class="details-block-title">Mileage</div>
                 </div>
-                <div class="details-blocks-line">
-                    <div class="block details-upperblock">
-                        <img src="img/sequence/details/car-crash.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Accidents records</div>
-                    </div>
-                    <div class="block details-upperblock">
-                        <img src="img/sequence/details/sea.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Flood accidents</div>
-                    </div>
-                    <div class="block details-upperblock">
-                        <img src="img/sequence/details/speedometer.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Mileage</div>
-                    </div>
-                    <div class="block details-upperblock">
-                        <img src="img/sequence/details/hammer.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Auction & Salvage</div>
-                    </div>
+                <div class="block details-upperblock">
+                    <img src="img/sequence/details/hammer.png" alt="/" class="details-block-img">
+                    <div class="details-block-title">Auction & Salvage</div>
                 </div>
-                <div class="details-blocks-line">
-                    <div class="block details-underblock">
-                        <img src="img/sequence/details/car.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Theft records</div>
-                    </div>
-                    <div class="block details-underblock">
-                        <img src="img/sequence/details/cash.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Lien records</div>
-                    </div>
-                    <div class="block details-underblock">
-                        <img src="img/sequence/details/fire.png" alt="/" class="details-block-img">
-                        <div class="details-block-title">Fire accidents</div>
-                    </div>
+            </div>
+            <div class="details-blocks-line">
+                <div class="block details-underblock">
+                    <img src="img/sequence/details/car.png" alt="/" class="details-block-img">
+                    <div class="details-block-title">Theft records</div>
+                </div>
+                <div class="block details-underblock">
+                    <img src="img/sequence/details/cash.png" alt="/" class="details-block-img">
+                    <div class="details-block-title">Lien records</div>
+                </div>
+                <div class="block details-underblock">
+                    <img src="img/sequence/details/fire.png" alt="/" class="details-block-img">
+                    <div class="details-block-title">Fire accidents</div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Purchase -->
+    <!-- Details -->
     <div class="offers">
         <div class="container offers-container">
-            <div class="title">Available Reports</div>
+            <div class="title title-upperline">Available Reports</div>
 
             <div class="offers-blocks-line">
                 <div class="block offer-block">
@@ -182,12 +296,13 @@
     <!-- Offers -->
     <div class="reviews">
         <div class="container reviews-container">
-            <div class="title title-upperline">Our Happy Clients!</div>
+            <div class="title-container">
+                <img src="img/reviews/guarantee.jpg" alt="/" class="guarantee">
 
-            <img src="img/reviews/guarantee.jpg" alt="/" class="guarantee">
+                <div class="title title-upperline">Our Happy Clients!</div>
 
-            <img src="img/reviews/award.png" alt="/" class="award">
-
+                <img src="img/reviews/award.png" alt="/" class="award">
+            </div>
             <div class="reviews-blocks-line">
                 <div class="block reviews-block">
                     <div class="reviews-block-comment">"Excellent seller! 5/5. Shipped quickly and perfect description!"</div>
@@ -214,12 +329,73 @@
             <div class="title title-upperline">Contact Us</div>
 
             <div class="form contacts-form">
-                <input type="text" class="form-input" placeholder="Your Email">
-                <input type="text" class="form-input" placeholder="Subject">
-                <textarea type="text" class="form-input form-message" placeholder="Message"></textarea>
-                <button class="button form-button">SEND MESSAGE</button>
+                <input type="text" class="contacts-form-input" placeholder="Your Email">
+                <div class="contacts-form-input-error">This field is required.</div>
+                <div class="contacts-form-input-error-email">Please enter a valid email address.</div>
+
+                <input type="text" class="contacts-form-input" placeholder="Subject">
+                <div class="contacts-form-input-error">This field is required.</div>
+
+                <textarea type="text" class="contacts-form-input contacts-form-message" placeholder="Message"></textarea>
+                <div class="contacts-form-input-error">This field is required.</div>
+
+                <button class="button contacts-form-button">SEND MESSAGE</button>
             </div>
         </div>
     </div>
+    <!-- Contacts -->
+    <div class="started">
+        <div class="container started-container">
+            <img src="img/started/gadgets.png" alt="/" class="started-img">
+            <div class="started-info">
+                <div class="started-suptitle">CARFAX & AUTOCHECK Reports Discounter</div>
+                <div class="started-title">We have all reports for cars since 1981!</div>
+                <div class="started-text">Order CARFAX | AUTOCHECK reports for all US and CANADA Vehicles</div>
+                <button class="button started-button">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+    <!-- Started -->
+    <div class="footer">
+        <div class="footer-info">
+            <div class="container footer-container">
+
+                <div class="footer-content">
+                    <div class="footer-logo">
+                        <img src="img/footer/logo.png" alt="/" class="footer-logo-img">
+                        <p class="footer-logo-text">Carfax</p>
+                        <p class="footer-logo-text">Autocheck</p>
+                    </div>
+    
+                    <div class="footer-text">
+                        <div class="footer-text-title">
+                            We have developed this website to help you save money
+                        </div>
+                        <div class="footer-text-info">
+                            Link to purchased report will be delivered instantly to your EMAIL, or you can click button "View report" on checkout page right after payment. Feel free to <a href="#" class="footer-text-info-link">contact us</a> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-links-title">
+                        Important Links
+                    </div>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms & Conditions</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container footer-copyright-container">
+                <div class="footer-copyright-text">Copyright © 2023</div>
+                <div class="footer-copyright-text">VINFOX</div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
